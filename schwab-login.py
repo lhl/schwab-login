@@ -98,6 +98,9 @@ print(browser.current_url)
 element = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "lbl-account")))
 browser.save_screenshot("summary.png")
 
+### Quit
+browser.quit()
+
 
 '''
 Useful screens:
